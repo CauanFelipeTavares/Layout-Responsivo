@@ -1,0 +1,216 @@
+ul {
+    list-style: none;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#barraInicial {
+    background-image: url("fundoMulherFlor.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 50vw;
+    width:100%;
+}
+
+#barraInicial ul {
+    font-size: 1.5vw;
+}
+
+#upB {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top:3vh;
+    left: 5vw;
+    font-size:4vw;
+
+}
+
+#barraInicial li {
+    display: inline-block;
+    padding: 8px;
+    float: right;
+    margin-right: 5%;
+    margin-top:1%;
+}
+
+#barraInicial h1  {
+    color: rgb(95, 204, 237);
+    margin-left: 5%;
+    padding-top: 15%;
+    font-size: 3.2vw;
+}
+
+#barraInicial p {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 30%;
+    font-size: 1.8vw;
+}
+
+#barraInicial button::before{
+    content: "> ";
+    font-size: 1.4vw;
+    font-weight: 900;
+}
+
+#barraInicial button::after {
+    content: "Learn More";
+    font-size: 1.4vw;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+#barraInicial button {
+    background-color: rgb(95, 204, 237);
+    color: white;
+    border-radius: 8px;
+    border:transparent;
+    width: 14vw;
+    height: 3vw;
+    cursor: pointer;
+    margin-left: 5%;
+
+}
+
+#barraInicial button:active {
+    border:1px black solid;
+}
+
+#servicesArea h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(197,244,252);
+}
+
+#servicesArea img {
+    height: 20vw;
+}
+
+#servicesArea li {
+    display: inline-block;
+    padding: 1.35vw;
+    text-align: center;
+}
+
+#servicesArea ul {
+  margin-top: 3.5vw;
+  margin-bottom: 7vw;
+}
+
+#massagem img {
+    zoom:0.8;
+    margin-left:20%;
+}
+
+#massagem h1 {
+    color: rgb(95, 204, 237);
+    font-size: 3.2vw;
+    margin-left:7%;
+}
+
+#massagem p {
+    margin-left:7%;
+    margin-right: 20%;
+}
+
+#massagem button::before{
+    content: "> ";
+    font-size: 1.4vw;
+    font-weight: 900;
+}
+
+#massagem button::after {
+    content: "Learn More";
+    font-size: 1.4vw;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+#massagem button {
+    background-color: rgb(95, 204, 237);
+    color: white;
+    border-radius: 8px;
+    border:transparent;
+    width: 14vw;
+    height: 3vw;
+    cursor: pointer;
+    margin-left: 7%;
+
+}
+
+#massagem button:active {
+    border:1px black solid;
+}
+
+#contato {
+    background-color: rgb(233,245,255);
+    width: 100%;
+    margin-top: 10vh;
+}
+
+#contato ul{
+    min-height: 7vw;
+}
+
+#contato li {
+    display: inline-block;
+    margin: 20px;
+    padding: 1vw;
+}
+
+#text {
+    width: 55vw;
+    word-break: break-all;
+}
+
+#whatsapp {
+    background-color: rgb(95, 204, 237);
+    border-radius: 8px;
+}
+
+#phone {
+    background-color: rgb(95, 204, 237);
+    border-radius: 8px;
+}
+
+#informacoes ul {
+    margin-top: 5vw;
+    margin-left: 3vw;
+}
+
+#informacoes li {
+    display: inline-block;
+    margin: 1vw;
+    margin-right: 8vw;
+    text-align: left;
+}
+
+#informacoes img {
+    zoom:2;
+}
+
+#up {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5vw;
+}
+
+#adressFinal h3, #contactFinal h3, #mediaFinal h3 {
+    color:rgb(95, 204, 237)
+}
+
+#rodape {
+    margin-top:5vh;
+    background-color: rgb(233,245,255);
+    
+}
+
+#rodape p {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+}
